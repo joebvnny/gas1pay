@@ -1,0 +1,177 @@
+body{margin:auto 0;}
+#{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:normal;line-height:1.4em;color:#333;margin:0;padding:0;list-style:none;text-decoration:none;}
+img{border:0;vertical-align:middle;}
+textarea{resize:none;}
+.width1003{width:1003px;margin:0 auto;}
+*html .clearfix{height:1%;}
+em {font-style:none;}
+a:visited {text-decoration:none;}
+.cOrange{color:#f60;vertical-align:middle;_vertical-align:;} 
+.cBlue{color:#36c;}
+strong {font-weight:bold}
+.logo {float:left;width:306px;float:left;height:72px;overflow:hidden;margin:6px 0;position:relative;}
+.logo .logoImg  {margin-top:7px;display:block;}
+.serviceH {width:1003px;margin:20px auto 0;}
+#footer{padding:30px 0;text-align:center;}
+#footer .flinks a{margin:0 10px;}
+#footer .copyright{margin:10px 0;border-top:1px solid #e3e3e3;padding-top:10px;}
+.thickdiv{position:fixed !important;_position:absolute;top:0;left:0;z-index:10;width:100%;background:#000;border:0;opacity:0.20;filter:alpha(opacity=20);}
+
+.pay_infor{width:995px;padding:1px;border:3px solid #b2d1ff;background:#fff;}
+.pay_infor .infor_box{width:955px !important;*width:995px;_width:955px;padding:7px 20px;background:#edffcd;text-align: left;}
+.infor_box span,.infor_box a{float:left;margin-right:10px;line-height:26px;font-size:14px;font-weight:bold;}
+.infor_box label{float:right;line-height:26px;white-space:nowrap;}
+.infor_box label font{font-size:14px;font-weight:bold;}
+.pay_opt{width:971px;!important;*width:971px;_width:971px;height:122px;padding-left:30px;border:1px solid #b2d1ff;border-width:0px 1px 1px;background:url(../img/common.gif) repeat-x scroll 0 -623px transparent;}
+.pay_opt p{height:55px;line-height:55px;font-size:14px;color:#666;font-weight:bold;}
+.default{height:50px;}
+.default label,.default label input,.default font,.default a{float:left;}
+.default label{float:left;cursor:pointer;}
+.default label input{width:13px;height:13px;margin:16px 6px 0 0;}
+.default label a{width:186px;height:48px;padding-left:4px;border:1px solid #ddd;background-color:#fff;background-position: 10px center;}
+.default label a:hover{border-color:#f60;}
+.default font{margin-left:10px;line-height:38px;margin-top:4px;}
+.default a.cBlue{color:#36c;text-decoration:none;}
+.pay_mode{width:1003px;_width:1003px;margin-top:20px;}
+.pay_mode_nav{position:relative;height:34px;line-height:34px;border:1px solid #b2d1ff;background:url(../img/common.gif) repeat-x scroll 0 -445px transparent}
+.pay_mode_nav span{float:left;margin:0 40px 0 20px;font-size:14px;line-height:34px;font-weight:bold;color:#666;}
+.pay_mode_nav ul,.pay_mode_nav ul li{float:left;position:relative;}
+.pay_mode_nav ul{}
+.pay_mode_nav ul li{width:107px;height:34px;line-height:34px;color:#36c;font-size:14px;font-weight:bold;text-align:center;cursor:pointer;}
+.pay_mode_nav ul li.current{position:relative;_top:1px;height:38px;line-height:38px;margin-top:-3px;_margin-top:-4px;color:#333;background:url(../img/common.gif) no-repeat scroll 0 -397px transparent;}
+.bank_list{width:939px!important;*width:1003px;_width:939px;overflow:hidden;padding:40px 30px;margin-bottom:20px;border:2px solid #b2d1ff;border-top:0px;}
+.bank_list h6{float:left;width:938px;height:25px;margin-bottom:15px;}
+.bank_list h6 label,.bank_list h6 span{float:left;color:#666;line-height:25px;}
+.bank_list h6 label{margin-right:10px;font-size:14px;font-weight:bold;}
+.default label a.border_f60{border-color:#f60;}
+.sel_list label a.border_f60{border-color:#f60;}
+.sel_list{width:938px;float:left;}
+.sel_list li{float:left;width:234px;height:60px;padding-bottom:15px;}
+.sel_list label{float:left;cursor:pointer;}
+.sel_list label input{float:left;width:13px;height:13px;margin:18px 6px 0 0;}
+.default label a,.sel_list label a{float:left;width:186px;height:48px;padding-left:4px;border:1px solid #ddd;background-color:#ffffff;}
+.sel_list label a:hover{border-color:#f60;}
+.confirm_pay{float:left;width:100%;height:37px;margin-top:20px;text-align:center;}
+.confirm_pay_btn{display:inline-block;width:118px;height:37px;background:url(../img/confirm_pay.png) no-repeat;}
+.downarrow {float:left;width:50px;height:32px;margin-left:20px;padding-top:6px;background:url(../img/common.gif) no-repeat scroll 0 -559px transparent;}
+.uparrow {float:left;width:50px;height:32px;margin-left:20px;padding-top:6px;background:url(../img/common.gif) no-repeat scroll 0 -591px transparent;}
+
+.default label a.UNION,.sel_list label a.UNION{background:url(../img/UnionPay.png) no-repeat 0 0;background-size:192px 50px }
+.default label a.WEIXIN,.sel_list label a.WEIXIN{background:url(../img/wxzf.png) no-repeat 0 0;background-size:192px 50px }
+
+.default label a.ICBC,.sel_list label a.ICBC{background:url(../img/banks.gif) no-repeat 5px 0;}
+.default label a.ABC,.sel_list label a.ABC{background:url(../img/banks.gif) no-repeat 5px -48px;}
+.default label a.CMBCHINA,.sel_list label a.CMBCHINA{background:url(../img/banks.gif) no-repeat 5px -96px;}
+.default label a.CCB,.sel_list label a.CCB{background:url(../img/banks.gif) no-repeat 5px -144px;}
+.default label a.BOC,.sel_list label a.BOC{background:url(../img/banks.gif) no-repeat 5px -192px;}
+.default label a.BOCO,.sel_list label a.BOCO{background:url(../img/banks.gif) no-repeat 5px -240px;}
+.default label a.CIB,.sel_list label a.CIB{background:url(../img/banks.gif) no-repeat 5px -288px;}
+.default label a.CEB,.sel_list label a.CEB{background:url(../img/banks.gif) no-repeat 5px -336px;}
+.default label a.SPDB,.sel_list label a.SPDB{background:url(../img/banks.gif) no-repeat 5px -384px;}
+.default label a.HXB,.sel_list label a.HXB{background:url(../img/banks.gif) no-repeat 5px -432px;}
+.default label a.CMBC,.sel_list label a.CMBC{background:url(../img/banks.gif) no-repeat 5px -480px;}
+.default label a.ECITIC,.sel_list label a.ECITIC{background:url(../img/banks.gif) no-repeat 5px -528px;}
+.default label a.POST,.sel_list label a.POST{background:url(../img/banks.gif) no-repeat 5px -576px;}
+.default label a.PAB,.sel_list label a.PAB{background:url(../img/banks.gif) no-repeat 5px -624px;}
+.default label a.GDB,.sel_list label a.GDB{background:url(../img/banks.gif) no-repeat 5px -672px;}
+.default label a.CZB,.sel_list label a.CZB{background:url(../img/banks.gif) no-repeat 5px -720px;}
+.default label a.CZ,.sel_list label a.CZ{background:url(../img/banks.gif) no-repeat 5px -720px;}
+.default label a.CBHB,.sel_list label a.CBHB{background:url(../img/banks.gif) no-repeat 5px -768px;}
+.default label a.NJCB,.sel_list label a.NJCB{background:url(../img/banks.gif) no-repeat 5px -816px;}
+.default label a.BCCB,.sel_list label a.BCCB{background:url(../img/banks.gif) no-repeat 5px -864px;}
+.default label a.NBCB,.sel_list label a.NBCB{background:url(../img/banks.gif) no-repeat 5px -912px;}
+.default label a.HZB,.sel_list label a.HZB{background:url(../img/banks.gif) no-repeat 5px -960px;}
+.default label a.SHB,.sel_list label a.SHB{background:url(../img/banks.gif) no-repeat 5px -1008px;}
+.default label a.BJRCB,.sel_list label a.BJRCB{background:url(../img/banks.gif) no-repeat 5px -1056px;}
+.default label a.HKBEA,.sel_list label a.HKBEA{background:url(../img/banks.gif) no-repeat 5px -1104px;}
+
+.default label a .debitcard,.sel_list label a .debitcard{float:right;background:url(../img/common.gif) -0px -130px no-repeat;width:59px;height:48px;}
+.default label a.DEBITCARD_ALIPAY,.sel_list label a.DEBITCARD_ALIPAY{background:url(../img/banks.gif) no-repeat 5px -1152px;}
+.default label a.DEBITCARD_TENPAY,.sel_list label a.DEBITCARD_TENPAY{background:url(../img/banks.gif) no-repeat 5px -1248px;}
+.default label a.DEBITCARD_UNIONPAY,.sel_list label a.DEBITCARD_UNIONPAY{background:url(../img/banks.gif) no-repeat 5px -1440px;}
+.default label a.DEBITCARD_WOYF,.sel_list label a.DEBITCARD_WOYF{background:url(../img/banks.gif) no-repeat 5px -1296px;}
+
+.default label a .creditcard,.sel_list label a .creditcard{float:right;background:url(../img/common.gif) -0px -72px no-repeat;width:59px;height:48px;}
+.default label a.CREDITCARD_ALIPAY,.sel_list label a.CREDITCARD_ALIPAY{background:url(../img/banks.gif) no-repeat 5px -1152px;}
+.default label a.CREDITCARD_TENPAY,.sel_list label a.CREDITCARD_TENPAY{background:url(../img/banks.gif) no-repeat 5px -1248px;}
+.default label a.CREDITCARD_UNIONPAY,.sel_list label a.CREDITCARD_UNIONPAY{background:url(../img/banks.gif) no-repeat 5px -1440px;}
+.default label a.CREDITCARD_WOYF,.sel_list label a.CREDITCARD_WOYF{background:url(../img/banks.gif) no-repeat 5px -1296px;}
+
+.default label a.CMBCHINA-CREDITCARD,.sel_list label a.CMBCHINA-CREDITCARD{background:url(../img/banks.gif) no-repeat 5px -96px;}
+.default label a.ECITIC-CREDITCARD,.sel_list label a.ECITIC-CREDITCARD{background:url(../img/banks.gif) no-repeat 5px -528px;}
+.default label a.ICBC-CREDITCARD,.sel_list label a.ICBC-CREDITCARD{background:url(../img/banks.gif) no-repeat 5px 0;}
+.default label a.CCB-CREDITCARD,.sel_list label a.CCB-CREDITCARD{background:url(../img/banks.gif) no-repeat 5px -144px;}
+
+.default label a .YeePay01,.sel_list label a .YeePay01{float:right;width:58px;height:14px;margin-top:18px;margin-right:10px;background:url(../img/common.gif) 0px 0px no-repeat;}
+.default label a.YeePay01,.sel_list label a.YeePay01{background:url(../img/banks.gif) no-repeat 5px -1200px;}
+/*.default label a .AliPay01,.sel_list label a .AliPay01{float:right;width:58px;height:14px;margin-top:18px;margin-right:10px;background:url(../img/common.gif) 0px 0px no-repeat;}*/
+.default label a.AliPay01,.sel_list label a.AliPay01{background:url(../img/banks.gif) no-repeat 5px -1152px;}
+.default label a .AliPay02,.sel_list label a .AliPay02{float:right;width:58px;height:14px;margin-top:18px;margin-right:10px;background:url(../img/common.gif) 0px -48px no-repeat;}
+.default label a.AliPay02,.sel_list label a.AliPay02{background:url(../img/banks.gif) no-repeat 5px -1152px;}
+/*.default label a .TenPay01,.sel_list label a .TenPay01{float:right;width:58px;height:14px;margin-top:18px;margin-right:10px;background:url(../img/common.gif) 0px 0px no-repeat;}*/
+.default label a.TenPay01,.sel_list label a.TenPay01{background:url(../img/banks.gif) no-repeat 44px -1248px;}
+.default label a .TenPay02,.sel_list label a .TenPay02{float:right;width:71px;height:14px;margin-top:18px;margin-right:10px;background:url(../img/common.gif) 0px -24px no-repeat;}
+.default label a.TenPay02,.sel_list label a.TenPay02{background:url(../img/banks.gif) no-repeat 5px -1248px;}
+.default label a .WOYF01,.sel_list label a .WOYF01{float:right;width:58px;height:14px;margin-top:18px;margin-right:10px;background:url(../img/common.gif) 0px 0px no-repeat;}
+.default label a.WOYF01,.sel_list label a.WOYF01{background:url(../img/banks.gif) no-repeat 5px -1296px;}
+.default label a.WOYF03,.sel_list label a.WOYF03{background:url(../img/banks.gif) no-repeat 5px -1296px;}
+.default label a .SCAN_ALIPAY,.sel_list label a .SCAN_ALIPAY{float:right;width:67px;height:48px;background:url(../img/common.gif) 0px -772px no-repeat;}
+.default label a.SCAN_ALIPAY,.sel_list label a.SCAN_ALIPAY{background:url(../img/banks.gif) no-repeat 5px -1152px;}
+.default label a.LAKALA,.sel_list label a.LAKALA{background:url(../img/banks.gif) no-repeat 30px -1536px;}
+.default label a.WX_TENPAY,.sel_list label a.WX_TENPAY{background:url(../img/banks.gif) no-repeat 10px -1488px;}
+.default label a .WX_TENPAY,.sel_list label a .WX_TENPAY{float:right;width:67px;height:48px;background:url(../img/common.gif) 0px -772px no-repeat;}
+
+.default label a .enterprise_img,.sel_list label a .enterprise_img{float:right;background:#eee url(../img/common.gif) -6px -182px no-repeat;width:36px;height:48px;}
+.default label a.CCB-B2B,.sel_list label a.CCB-B2B{background:url(../img/banks.gif) no-repeat 5px -144px;}
+.default label a.CEB-B2B,.sel_list label a.CEB-B2B{background:url(../img/banks.gif) no-repeat 5px -1392px;}
+.default label a.CMBCHINA-B2B,.sel_list label a.CMBCHINA-B2B{background:url(../img/banks.gif) no-repeat 5px -96px;}
+.default label a.ICBC-B2B,.sel_list label a.ICBC-B2B{background:url(../img/banks.gif) no-repeat 5px 0;}
+.default label a.SPDB-B2B,.sel_list label a.SPDB-B2B{background:url(../img/banks.gif) no-repeat 5px -384px;}
+.default label a.ABC-B2B,.sel_list label a.ABC-B2B{background:url(../img/banks.gif) no-repeat 5px -48px;}
+.default label a.SDB-B2B,.sel_list label a.SDB-B2B{background:url(../img/banks.gif) no-repeat 5px -1344px;}
+.default label a.BOC-B2B,.sel_list label a.BOC-B2B{background:url(../img/banks.gif) no-repeat 5px -192px;}
+
+
+/*help*/
+.helpInfo {position:relative;float:left;width:72px;cursor:pointer;z-index:99;}
+.helpInfo a {color:#3366cc;}
+.helpInfo .helpDelimiterInfo{position:absolute;top:-5px;left:65px;z-index:999;width:300px;padding:10px;text-decoration:none;border:1px solid #ddd;background:#fdf9e6;color:#666;}
+.helpInfo .helpDelimiterInfo p{line-height:22px;}
+.arrow{position:absolute;width:16px;height:14px;overflow:hidden;top:10px;left:-6px;}
+.arrow-one{color:#DDD;}
+.arrow-two{color:#FDF9E6;position:absolute;left:1px;top:0px;}
+
+/*problem*/
+.aProblem{float: right;color: #36C;text-decoration: none;margin-top:54px;}
+.noProblem{clear: both;margin-bottom: 20px;text-align: left}
+.noProblem h2{font-size: 14px;font-weight: bold;color: #000;height:30px;line-height: 30px;padding: 10px 0;border-bottom:1px solid #ccc;margin-bottom:20px;}
+.noProblem dl{padding: 0 36px;}
+.noProblem dt{font-weight: bold;color:#000;line-height: 30px;}
+.noProblem dd{color:#666;line-height: 30px;}
+
+/*pop*/
+.pop-layer{width:367px;position: fixed;_position:absolute;top:200px;_top:260px;left:480px;z-index: 101;}
+.pop-top{height:46px;padding:0 16px;background:url(../img/popLayer.png) no-repeat 0 0;}
+.pop-con{padding:10px 40px;background:url(../img/popLayer.png) repeat-y -368px 0;}
+.pop-bottom{height:10px;background:url(../img/popLayer.png) no-repeat 0 100%;}
+.hint{float:left;width:40px;height:22px;background: url(../img/popLayer.png) no-repeat scroll -747px 1px transparent;overflow:hidden;line-height: 1000px;margin-top:16px}
+.close{cursor: pointer;float: right;width:16px;height:16px;background: url(../img/popLayer.png) no-repeat scroll -750px -21px transparent;overflow:hidden;line-height: 1000px;margin-top:16px}
+.pop-con .pcon{line-height:30px;font-size: 14px;padding: 6px 0;text-align: left;}
+.pop-con .pbtn{text-align: center;padding: 10px 0;}
+.btn-one,.btn-two{display:inline-block;width:84px;height:30px;line-height:30px;font-weight:bold;text-align:center;font-size:14px;margin:0 10px;background:url(../img/popLayer.png) no-repeat -800px 0;}
+.btn-one:hover{color:#333;text-decoration: underline;}
+.btn-two{background-position:-800px -30px;color:#fff;}
+.btn-two:hover{color:#fff;text-decoration: underline;}
+.icont{float: left;width:32px;height:26px;margin: 0px 0 -8px;margin-right: 12px;background: url(../img/popLayer.png) no-repeat scroll -747px -45px transparent;}
+
+.thickdiv{position:fixed !important;_position:absolute;top:0;left:0;z-index:100;width:100%;height:100%;background:#000;border:0;opacity:0.20;filter:alpha(opacity=20);}
+.titleYh{position:absolute;top: -90px;top: -93px !important;*top: -96px;_top: -96px;width:120px;padding:10px 14px;background: #fefaf0;border:1px solid #ccc;-moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; -khtml-border-radius: 4px; -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(color="white",direction=120,strength=5)";filter:progid:DXImageTransform.Microsoft.Shadow(color="white",direction=120,strength=5);background-color: #fefaf0; -moz-box-shadow:0px 0px 5px #999; -webkit-box-shadow:0px 0px 5px #999; box-shadow:0px 0px 5px #999;zoom:1;}
+.clear{clear:both;height:0;font-size: 0;overflow: hidden;}
+
+.container .top {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+#header{margin: 0px auto 20px; width: 1003px; height: 83px; background: url(../img/common.gif) repeat-x scroll 0px -475px transparent;}
+.footerBar{background:url(../img/common.gif) 0px -755px repeat-x;width:100%;height:7px;margin:7px auto;}
